@@ -1,12 +1,25 @@
 <html>
-
+<head>
 <title>vikram's webpage</title>
-  <h3> vikram shirsat </h3>
-  <body>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/templatemo-style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+
+<div class="preloader">
+     <div class="spinner">
+          <span class="spinner-rotate"></span>
+     </div>
+</div>
+
     <div class="navbar navbar-fixed-top custom-navbar" role="navigation">
          <div class="container">
-
-              <!-- navbar header -->
               <div class="navbar-header">
                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="icon icon-bar"></span>
@@ -20,7 +33,7 @@
                    <ul class="nav navbar-nav navbar-right">
                         <li><a href="#home" class="smoothScroll">Home</a></li>
                         <li><a href="#about" class="smoothScroll">About Me</a></li>
-                        <li><a href="#experience" class="smoothScroll">Projects</a></li>
+                        <li><a href="#experience" class="smoothScroll">Experience</a></li>
                         <li><a>Links</a></li>
                         <li><a>Contact</a></li>
                    </ul>
@@ -28,11 +41,36 @@
 
          </div>
     </div>
-  	<p></p>
+    <section id="home" class="parallax-section">
+         <div class="container">
+              <div class="row">
+
+                   <div class="col-md-6 col-sm-6">
+                        <div class="home-img"></div>
+                   </div>
+
+                   <div class="col-md-6 col-sm-6">
+                        <div class="home-thumb">
+                             <div class="section-title">
+
+                                  <h1 class="wow fadeInUp" data-wow-delay="0.3s">Hello! I'm <strong>Vikram</strong>!</h1>
+                                  <p class="wow fadeInUp" data-wow-delay="0.6s"> >>> welcome </p>
+                                  <a href="#about" class="wow fadeInUp smoothScroll section-btn btn btn-success" data-wow-delay="0.9s">more</a>
+
+                             </div>
+                        </div>
+                   </div>
 
 
-                              <h1>Hello! I'm <strong>Vikram</strong>!</h1>
-                              <p> >>> welcome </p>
-                              <a>more</a>
+              </div>
+         </div>
+    </section>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+
      </body>
 </html>
